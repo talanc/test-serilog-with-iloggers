@@ -1,0 +1,28 @@
+2018-08-21 21:57:10.699 +10:00 [INF] User profile is available. Using 'C:\Users\talan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-08-21 21:57:11.063 +10:00 [INF] Request starting HTTP/1.1 GET http://localhost:24756/  
+2018-08-21 21:57:11.063 +10:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:24756/  0
+2018-08-21 21:57:11.096 +10:00 [INF] Request finished in 35.5287ms 200 
+2018-08-21 21:57:11.232 +10:00 [INF] Route matched with {page = "/Index"}. Executing action /Index
+2018-08-21 21:57:11.246 +10:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-08-21 21:57:11.307 +10:00 [INF] Executed action /Index in 68.513100000000009ms
+2018-08-21 21:57:11.316 +10:00 [INF] Request finished in 257.2443ms 200 text/html; charset=utf-8
+2018-08-21 21:57:44.427 +10:00 [INF] Request starting HTTP/1.1 POST http://localhost:24756/?handler=UseLogger application/x-www-form-urlencoded 182
+2018-08-21 21:57:44.429 +10:00 [INF] Route matched with {page = "/Index"}. Executing action /Index
+2018-08-21 21:57:44.443 +10:00 [INF] Executing handler method OnPostUseLogger with arguments (null) - ModelState is "Valid"
+2018-08-21 21:57:44.445 +10:00 [INF] Log using Logger
+2018-08-21 21:57:44.447 +10:00 [INF] Executed action /Index in 16.5011ms
+2018-08-21 21:57:44.449 +10:00 [INF] Request finished in 22.2246ms 200 text/html; charset=utf-8
+2018-08-21 21:57:49.815 +10:00 [INF] Request starting HTTP/1.1 POST http://localhost:24756/?handler=UseLoggerFactory application/x-www-form-urlencoded 182
+2018-08-21 21:57:49.817 +10:00 [INF] Route matched with {page = "/Index"}. Executing action /Index
+2018-08-21 21:57:49.819 +10:00 [INF] Executing handler method OnPostUseLoggerFactory with arguments (null) - ModelState is "Valid"
+2018-08-21 21:57:49.821 +10:00 [INF] Log using LoggerFactory
+2018-08-21 21:57:49.823 +10:00 [INF] Executed action /Index in 4.3130000000000006ms
+2018-08-21 21:57:49.824 +10:00 [INF] Request finished in 9.3993ms 200 text/html; charset=utf-8
+2018-08-21 22:07:03.046 +10:00 [INF] IndexModel: Log using Logger
+2018-08-21 22:07:06.172 +10:00 [INF] IndexModel: Log using LoggerFactory
+2018-08-21 22:07:08.265 +10:00 [INF] Service1: Log with logger
+2018-08-21 22:07:10.231 +10:00 [INF] Service1: Log with logger factory
+2018-08-21 22:07:14.026 +10:00 [INF] Service1: Log with logger factory
+2018-08-21 22:07:15.867 +10:00 [INF] Service1: Log with logger
+2018-08-21 22:07:17.585 +10:00 [INF] IndexModel: Log using LoggerFactory
+2018-08-21 22:07:19.266 +10:00 [INF] IndexModel: Log using Logger

@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+}
+
+<form method="post" asp-page-handler="UseLogger">
+    <button>Use Logger</button>
+</form>
+
+<form method="post" asp-page-handler="UseLoggerFactory">
+    <button>Use Logger Factory</button>
+</form>
+
+<form method="post" asp-page-handler="UseService1Logger">
+    <button>Use Service1 Logger</button>
+</form>
+
+<form method="post" asp-page-handler="UseService1LoggerFactory">
+    <button>Use Service1 Logger Factory</button>
+</form>
